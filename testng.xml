@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NuanceWebsiteAcceptance" parallel="false">
+   <parameter name="browser" value="Chrome"/>
+   <test name="AcceptanceTests" preserve-order="true">
+      <classes>
+         <class name="com.dayamina.common.HomePageTests"/>
+         <class name="com.dayamina.common.JobPortalTests"/>
+      </classes>
+   </test>
+</suite>
